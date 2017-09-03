@@ -33,16 +33,20 @@ public class NumberWizard : MonoBehaviour
 		{
 			guess = Random.Range (min, max);
 			print (guess.ToString ());
+			print ("A for 500 B for 1000 and C for 1500");
 		} 
 		else if (Input.GetKeyDown (KeyCode.B))
 		{
 			guess = Random.Range (min, max2);
 			print (guess.ToString ());
+			print ("A for 500 B for 1000 and C for 1500");
 		} 
 		else if (Input.GetKeyDown (KeyCode.C)) 
 		{
 			guess = Random.Range (min, max3);
 			print (guess.ToString ());
+			print ("A for 500 B for 1000 and C for 1500");
 		}
 	}
+		
 }
